@@ -1,39 +1,39 @@
 .gallery{
-  display: flex;
-    flex-wrap: wrap;
+  display:flex;
+    flex-wrap:wrap;
 }
 
 .image-card{
-  padding: 2%;
-  width: 30%;
+  padding:2%;
+  width:30%;
+  display:flex;
   flex-grow: 1;
-  display: flex;
 }
 
 .info{
-  width: 95%;
-    align-self: center;
+  width:95%;
+  align-self:center;
 }
 
 .gallery img {
-  border-style: solid;
-  border-radius: 10px;
-  width: 95%;
+  border-style:solid;
+  border-radius:10px;
+  width:95%;
 }
 
 
 * {
-  font-family: inherit;
-  text-align: center;
+  font-family:inherit;
+  text-align:pcenter;
 }
 
 body{
-  background-color: cornflowerblue;
+  background-color:deeppink;
 }
 
 h1{
   font-size: 45px;
-  background-color: dimgray;
+  background-color: hotpink;
   padding: 15px;
   border-style: solid;
   border-radius: 10px;
